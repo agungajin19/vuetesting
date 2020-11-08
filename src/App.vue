@@ -1,25 +1,16 @@
 <template>
   <div class="container">
     <div id="app">
-      <header>
+      <!-- <header>
         <nav>
           <router-link :to="'/'">Back to Homepage</router-link>
         </nav>
         <cart :totalItems="0" />
-      </header>
+      </header> -->
       <router-view />
     </div>
   </div>
 </template>
-
-<script>
-import Cart from "./components/Cart.vue";
-export default {
-  components: {
-    cart: Cart
-  }
-};
-</script>
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");

@@ -79,7 +79,6 @@ export default {
 <style scoped>
 .image-container {
   display: inline-block;
-  float: left;
   max-width: 50%;
 }
 
